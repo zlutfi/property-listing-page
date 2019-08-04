@@ -1,18 +1,30 @@
 import React from "react"
-import { MDBView, MDBMask } from "mdbreact"
-
+import {
+  MDBJumbotron,
+  MDBRow,
+  MDBCol,
+  //   MDBContainer,
+  //   MDBView,
+  //   MDBMask,
+} from "mdbreact"
+import Carousel from "./carousel"
+import Form from "./form"
 const Hero = () => {
   return (
     <>
-      <MDBView>
+      {/* <MDBJumbotron className="p-0"> */}
+      <Carousel />
+      {/* </MDBJumbotron> */}
+
+      {/* <MDBView>
         <div className="bg">
-          {/* <MDBMask
+          <MDBMask
             className="flex-center"
             overlay="white-slight"
             pattern={1}
-          ></MDBMask> */}
+          ></MDBMask>
         </div>
-      </MDBView>
+      </MDBView> */}
     </>
   )
 }

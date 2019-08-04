@@ -11,7 +11,7 @@ const Main = () => {
             size="12"
             md="6"
             lg="5"
-            className="order-md-last contact-form"
+            className="order-md-last contact-form mt-5"
           >
             <MDBAnimation type="bounceInUp" delay="0.4s">
               <Form />
@@ -21,17 +21,15 @@ const Main = () => {
             <MDBRow>
               <MDBCol className="pb-5 text-center text-md-left">
                 <MDBAnimation type="bounceInUp" delay="0s">
-                  <h2>
-                    <strong>
-                      <MDBIcon
+                  <h2 className="h2-responsive mb-5 mb-md-0 font-weight-bold">
+                    {/* <MDBIcon
                         icon="info-circle"
                         className="mr-2 text-primary"
-                      />
-                      Property Details
-                    </strong>
+                      /> */}
+                    Property Details
                   </h2>
-                  <hr />
-                  <p className="text-justify text-md-left">
+                  <hr className="d-none d-md-block" />
+                  <p className="text-center text-md-left">
                     This architectural masterpiece is designed to take advantage
                     of breathtaking views from nearly every angle. Bask in the
                     morning sun on the veranda, or enjoy a evening dip in the
@@ -43,27 +41,27 @@ const Main = () => {
                 </MDBAnimation>
               </MDBCol>
             </MDBRow>
-            <MDBRow className="mx-auto text-center text-md-left">
+            <MDBRow className="mx-auto text-center text-md-left mb-5 mb-md-0">
               <MDBCol>
-                <h1 className="font-weight-bold">3</h1>
+                <h1 className="font-weight-bold h1-responsive">3</h1>
                 <MDBIcon icon="bed" className="mr-2 text-primary" />
                 Bedrooms
               </MDBCol>
               <MDBCol>
-                <h1 className="font-weight-bold">2</h1>
+                <h1 className="font-weight-bold h1-responsive">2</h1>
                 <MDBIcon icon="bath" className="mr-2 text-primary" /> Baths
               </MDBCol>
               <MDBCol>
-                <h1 className="font-weight-bold">2316</h1>
+                <h1 className="font-weight-bold h1-responsive">2316</h1>
                 <MDBIcon icon="ruler-combined" className="mr-2 text-primary" />
                 Sq/Ft
               </MDBCol>
             </MDBRow>
-            <hr />
+            <hr className="d-none d-md-block" />
 
-            <MDBRow className="mx-auto text-center text-md-left">
+            <MDBRow className="mx-auto text-center text-md-left mb-5 mb-md-0">
               <MDBCol>
-                <h4>
+                <h4 className="h4-responsive">
                   <MDBIcon
                     icon="map-marker-alt"
                     className="mr-2 text-primary"
@@ -73,10 +71,10 @@ const Main = () => {
                 </h4>
               </MDBCol>
             </MDBRow>
-            <hr />
+            <hr className="d-none d-md-block" />
             <MDBRow className="mx-auto text-center text-md-left">
               <MDBCol>
-                <h3 className="font-weight-bold">
+                <h3 className="font-weight-bold h3-responsive">
                   <MDBIcon icon="dollar-sign" className="mr-2  text-primary" />
                   1,894,500
                 </h3>
@@ -88,7 +86,7 @@ const Main = () => {
                 </h3>
               </MDBCol> */}
             </MDBRow>
-            <hr />
+            <hr className="d-none d-md-block" />
           </MDBCol>
         </MDBRow>
       </MDBContainer>

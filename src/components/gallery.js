@@ -18,6 +18,172 @@ import Img5 from "../images/gallery/img_5.jpg"
 import Img6 from "../images/gallery/img_6.jpg"
 import Divider from "./divider"
 
+// const images = () => (
+//     <StaticQuery
+//       query={graphql`
+//         query CarouselQuery {
+//           hero: file(relativePath: { eq: "gallery/hero.jpg" }) {
+//             id
+//             relativePath
+//             childImageSharp {
+//               fluid(maxHeight: 1000, maxWidth: 2000, cropFocus: CENTER) {
+//                 ...GatsbyImageSharpFluid_withWebp
+//               }
+//             }
+//           }
+//           img1: file(relativePath: { eq: "gallery/img_1.jpg" }) {
+//             id
+//             relativePath
+//             childImageSharp {
+//               fluid(maxHeight: 1000, maxWidth: 2000, cropFocus: CENTER) {
+//                 ...GatsbyImageSharpFluid_withWebp
+//               }
+//             }
+//           }
+//           img2: file(relativePath: { eq: "gallery/img_2.jpg" }) {
+//             id
+//             relativePath
+//             childImageSharp {
+//               fluid(maxHeight: 1000, maxWidth: 2000, cropFocus: CENTER) {
+//                 ...GatsbyImageSharpFluid_withWebp
+//               }
+//             }
+//           }
+//           img3: file(relativePath: { eq: "gallery/img_3.jpg" }) {
+//             id
+//             relativePath
+//             childImageSharp {
+//               fluid(maxHeight: 1000, maxWidth: 2000, cropFocus: CENTER) {
+//                 ...GatsbyImageSharpFluid_withWebp
+//               }
+//             }
+//           }
+//           img4: file(relativePath: { eq: "gallery/img_4.jpg" }) {
+//             id
+//             relativePath
+//             childImageSharp {
+//               fluid(maxHeight: 1000, maxWidth: 2000, cropFocus: CENTER) {
+//                 ...GatsbyImageSharpFluid_withWebp
+//               }
+//             }
+//           }
+//           img5: file(relativePath: { eq: "gallery/img_5.jpg" }) {
+//             id
+//             relativePath
+//             childImageSharp {
+//               fluid(maxHeight: 1000, maxWidth: 2000, cropFocus: CENTER) {
+//                 ...GatsbyImageSharpFluid_withWebp
+//               }
+//             }
+//           }
+//           img6: file(relativePath: { eq: "gallery/img_6.jpg" }) {
+//             id
+//             relativePath
+//             childImageSharp {
+//               fluid(maxHeight: 1000, maxWidth: 2000, cropFocus: CENTER) {
+//                 ...GatsbyImageSharpFluid_withWebp
+//               }
+//             }
+//           }
+//         }
+//       `}
+//       render={data => (
+//         [
+//             {data.img1.childImageSharp.fluid.src},
+//             {data.img2.childImageSharp.fluid.src},
+//             {data.img3.childImageSharp.fluid.src},
+//             {data.img4.childImageSharp.fluid.src},
+//             {data.img5.childImageSharp.fluid.src},
+//             {data.img6.childImageSharp.fluid.src},
+//         ]
+//         )
+//       }
+//       />
+//     )
+
+//      const smallImages = () => (
+//         <StaticQuery
+//           query={graphql`
+//             query CarouselQuery {
+//               hero: file(relativePath: { eq: "gallery/hero.jpg" }) {
+//                 id
+//                 relativePath
+//                 childImageSharp {
+//                   fluid(maxHeight: 1000, maxWidth: 2000, cropFocus: CENTER) {
+//                     ...GatsbyImageSharpFluid_withWebp
+//                   }
+//                 }
+//               }
+//               img1: file(relativePath: { eq: "gallery/img_1.jpg" }) {
+//                 id
+//                 relativePath
+//                 childImageSharp {
+//                   fluid(maxHeight: 1000, maxWidth: 2000, cropFocus: CENTER) {
+//                     ...GatsbyImageSharpFluid_withWebp
+//                   }
+//                 }
+//               }
+//               img2: file(relativePath: { eq: "gallery/img_2.jpg" }) {
+//                 id
+//                 relativePath
+//                 childImageSharp {
+//                   fluid(maxHeight: 1000, maxWidth: 2000, cropFocus: CENTER) {
+//                     ...GatsbyImageSharpFluid_withWebp
+//                   }
+//                 }
+//               }
+//               img3: file(relativePath: { eq: "gallery/img_3.jpg" }) {
+//                 id
+//                 relativePath
+//                 childImageSharp {
+//                   fluid(maxHeight: 1000, maxWidth: 2000, cropFocus: CENTER) {
+//                     ...GatsbyImageSharpFluid_withWebp
+//                   }
+//                 }
+//               }
+//               img4: file(relativePath: { eq: "gallery/img_4.jpg" }) {
+//                 id
+//                 relativePath
+//                 childImageSharp {
+//                   fluid(maxHeight: 1000, maxWidth: 2000, cropFocus: CENTER) {
+//                     ...GatsbyImageSharpFluid_withWebp
+//                   }
+//                 }
+//               }
+//               img5: file(relativePath: { eq: "gallery/img_5.jpg" }) {
+//                 id
+//                 relativePath
+//                 childImageSharp {
+//                   fluid(maxHeight: 1000, maxWidth: 2000, cropFocus: CENTER) {
+//                     ...GatsbyImageSharpFluid_withWebp
+//                   }
+//                 }
+//               }
+//               img6: file(relativePath: { eq: "gallery/img_6.jpg" }) {
+//                 id
+//                 relativePath
+//                 childImageSharp {
+//                   fluid(maxHeight: 1000, maxWidth: 2000, cropFocus: CENTER) {
+//                     ...GatsbyImageSharpFluid_withWebp
+//                   }
+//                 }
+//               }
+//             }
+//           `}
+//           render={data => (
+//             [
+//                 {data.img1.childImageSharp.fluid.src},
+//                 {data.img2.childImageSharp.fluid.src},
+//                 {data.img3.childImageSharp.fluid.src},
+//                 {data.img4.childImageSharp.fluid.src},
+//                 {data.img5.childImageSharp.fluid.src},
+//                 {data.img6.childImageSharp.fluid.src},
+//             ]
+//             )
+//           }
+//           />
+//         )
+
 const images = [Img1, Img2, Img3, Img4, Img5, Img6]
 
 const smallImages = [Img1, Img2, Img3, Img4, Img5, Img6]
@@ -45,24 +211,22 @@ class Gallery extends React.Component {
     const { photoIndex, isOpen } = this.state
     return (
       <>
-        <Divider bottom="#f1f1f1" top="#fff" />
+        {/* <Divider bottom="#f1f1f1" top="#fff" /> */}
 
         <div className="py-5" style={{ backgroundColor: "#f1f1f1" }}>
           <MDBContainer>
             <MDBRow>
               <MDBCol className="text-center text-md-left">
-                <h2>
-                  <strong>
-                    <MDBIcon icon="image" className="mr-2 text-primary" />
-                    Property Photos
-                  </strong>
+                <h2 className="h2-responsive mb-5 mb-md-0 font-weight-bold">
+                  {/* <MDBIcon icon="image" className="mr-2 text-primary" /> */}
+                  Property Photos
                 </h2>
-                <hr />
+                <hr class="d-md-block d-none" />
               </MDBCol>
             </MDBRow>
             <div className="mdb-lightbox no-margin">
               <MDBRow>
-                <MDBCol md="4" className="mb-md-3">
+                <MDBCol size="6" md="4" className="mb-md-3">
                   <figure>
                     <MDBView
                       hover
@@ -86,7 +250,7 @@ class Gallery extends React.Component {
                     </MDBView>
                   </figure>
                 </MDBCol>
-                <MDBCol md="4" className="mb-md-3">
+                <MDBCol size="6" md="4" className="mb-md-3">
                   <figure>
                     <MDBView
                       hover
@@ -110,7 +274,7 @@ class Gallery extends React.Component {
                     </MDBView>
                   </figure>
                 </MDBCol>
-                <MDBCol md="4" className="mb-md-3">
+                <MDBCol size="6" md="4" className="mb-md-3">
                   <figure>
                     <MDBView
                       hover
@@ -134,7 +298,7 @@ class Gallery extends React.Component {
                     </MDBView>
                   </figure>
                 </MDBCol>
-                <MDBCol md="4" className="mb-md-3">
+                <MDBCol size="6" md="4" className="mb-md-3">
                   <figure>
                     <MDBView
                       hover
@@ -158,7 +322,7 @@ class Gallery extends React.Component {
                     </MDBView>
                   </figure>
                 </MDBCol>
-                <MDBCol md="4" className="mb-md-3">
+                <MDBCol size="6" md="4" className="mb-md-3">
                   <figure>
                     <MDBView
                       hover
@@ -182,7 +346,7 @@ class Gallery extends React.Component {
                     </MDBView>
                   </figure>
                 </MDBCol>
-                <MDBCol md="4" className="mb-md-3">
+                <MDBCol size="6" md="4" className="mb-md-3">
                   <figure>
                     <MDBView
                       hover

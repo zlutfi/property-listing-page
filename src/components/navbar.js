@@ -10,7 +10,7 @@ import {
   MDBIcon,
   MDBAnimation,
 } from "mdbreact"
-import logo from "../images/pp-logo.svg"
+import logo from "../images/logo.svg"
 import { Link } from "gatsby"
 
 class Navbar extends Component {
@@ -41,7 +41,7 @@ class Navbar extends Component {
           </MDBNavbarBrand>
           <MDBNavbarToggler onClick={this.toggleCollapse} />
           <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
-            <MDBNavbarNav right className="text-center">
+            <MDBNavbarNav right className="text-center py-3 py-md-0">
               <MDBNavItem>
                 <MDBAnimation type="fadeIn">
                   <MDBIcon icon="mobile-alt" className="mr-2" />

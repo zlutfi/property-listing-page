@@ -16,18 +16,18 @@ const Form = () => {
     <MDBCard id="contact">
       <MDBCardTitle
         tag="h4"
-        className="text-center p-4  mb-0"
+        className="h4-responsive text-center p-4  mb-0 font-weight-bold"
         style={{ backgroundColor: "#f1f1f1" }}
       >
         <img
           src={logo}
           alt="Prime Properties Logo"
           height="40px"
-          className="mr-3 float-left"
+          className="mr-3 float-left d-md-block d-none"
         />
         Exclusive Luxury Homes in the Heart of Downtown Charlotte.
       </MDBCardTitle>
-      <Divider bottom="#f8f9fa" top="#f1f1f1" />
+      {/* <Divider bottom="#f8f9fa" top="#f1f1f1" /> */}
 
       <MDBCardBody>
         <MDBCardText className="mb-4 text-center">

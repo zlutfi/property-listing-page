@@ -11,7 +11,7 @@ const Main = () => {
             size="12"
             md="6"
             lg="5"
-            className="order-md-last contact-form mt-5"
+            className="order-md-last contact-form"
           >
             <MDBAnimation type="bounceInUp" delay="0.4s">
               <Form />
@@ -21,14 +21,11 @@ const Main = () => {
             <MDBRow>
               <MDBCol className="pb-5 text-center text-md-left">
                 <MDBAnimation type="bounceInUp" delay="0s">
-                  <h2 className="h2-responsive mb-5 mb-md-0 font-weight-bold">
-                    {/* <MDBIcon
-                        icon="info-circle"
-                        className="mr-2 text-primary"
-                      /> */}
+                  <h2 className="h2-responsive mb-5 font-weight-bold">
+                    {/* <MDBIcon icon="info-circle" className="mr-2 text-primary" /> */}
                     Property Details
                   </h2>
-                  <hr className="d-none d-md-block" />
+                  {/* <hr className="d-none d-md-block" /> */}
                   <p className="text-center text-md-left">
                     This architectural masterpiece is designed to take advantage
                     of breathtaking views from nearly every angle. Bask in the

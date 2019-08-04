@@ -9,7 +9,7 @@ import {
   MDBCardTitle,
 } from "mdbreact"
 import logo from "../images/icon.svg"
-import Divider from "./divider.js"
+// import Divider from "./divider.js"
 
 const Form = () => {
   return (

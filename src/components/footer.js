@@ -1,16 +1,16 @@
 import React from "react"
-import { MDBCol, MDBContainer, MDBRow, MDBFooter, MDBIcon } from "mdbreact"
-import agent from "../images/agent.jpg"
+import { MDBFooter } from "mdbreact"
+// import agent from "../images/agent.jpg"
 import logo from "../images/icon.svg"
-import Divider from "./divider.js"
+// import Divider from "./divider.js"
 
 const Footer = () => {
   return (
     <>
       {/* <Divider bottom="#fff" top="#f1f1f1" /> */}
 
-      <MDBFooter className="font-small pt-5 container-fluid">
-        <MDBContainer className="text-center text-md-left">
+      <MDBFooter className="font-small container-fluid">
+        {/* <MDBContainer className="text-center text-md-left">
           <MDBRow between>
             <MDBCol md="6">
               <MDBRow>
@@ -75,8 +75,8 @@ const Footer = () => {
               </p>
             </MDBCol>
           </MDBRow>
-        </MDBContainer>
-        <div className="text-center py-3 mt-4">
+        </MDBContainer> */}
+        <div className="text-center py-4">
           <img
             src={logo}
             alt="Prime Properties Logo"

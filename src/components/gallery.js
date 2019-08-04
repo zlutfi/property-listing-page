@@ -16,7 +16,7 @@ import Img3 from "../images/gallery/img_3.jpg"
 import Img4 from "../images/gallery/img_4.jpg"
 import Img5 from "../images/gallery/img_5.jpg"
 import Img6 from "../images/gallery/img_6.jpg"
-import Divider from "./divider"
+// import Divider from "./divider"
 
 // const images = () => (
 //     <StaticQuery
@@ -217,11 +217,11 @@ class Gallery extends React.Component {
           <MDBContainer>
             <MDBRow>
               <MDBCol className="text-center text-md-left">
-                <h2 className="h2-responsive mb-5 mb-md-0 font-weight-bold">
+                <h2 className="h2-responsive mb-5 font-weight-bold">
                   {/* <MDBIcon icon="image" className="mr-2 text-primary" /> */}
                   Property Photos
                 </h2>
-                <hr class="d-md-block d-none" />
+                {/* <hr class="d-md-block d-none" /> */}
               </MDBCol>
             </MDBRow>
             <div className="mdb-lightbox no-margin">

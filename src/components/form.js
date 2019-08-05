@@ -37,45 +37,51 @@ const Form = () => {
             id="defaultFormContactNameEx"
             className="form-control"
             placeholder="Name"
+            label="Name"
           />
           <br />
 
           <input
             type="email"
-            id="defaultFormContactEmailEx"
+            id="defaultFormContactEmail"
             className="form-control"
             placeholder="Email"
+            label="Email"
           />
           <br />
 
           <input
             type="text"
-            id="defaultFormContactPhoneEx"
+            id="defaultFormContactPhone"
             className="form-control"
             placeholder="Phone"
+            label="Phone"
           />
           <br />
 
           <input
             type="text"
-            id="defaultFormContactPhoneEx"
+            id="defaultFormContactDay"
             className="form-control"
-            placeholder="Day"
+            placeholder="Date"
+            label="Appointment Date"
           />
           <br />
           <input
             type="text"
-            id="defaultFormContactPhoneEx"
+            id="defaultFormContactAppointment"
             className="form-control"
             placeholder="Appointment Time"
+            label="Appointment Time"
           />
           <br />
           <textarea
             type="text"
-            id="defaultFormContactMessageEx"
+            id="defaultFormContactMessage"
             className="form-control"
             placeholder="Message"
             rows="3"
+            label="Your Message"
           />
           <div className="text-center mt-4">
             <Link to="/">

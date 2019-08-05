@@ -50,7 +50,7 @@ class LightboxPage extends React.Component {
                   />
                   <MDBMask overlay="black-light" className="flex-center">
                     <p className="text-center lead text-white font-weight-bold">
-                      <MDBIcon icon="search-plus" className="mr-2" />
+                      <MDBIcon icon="search-plus" className="mr-2" size="2x" />
                       {/* {captions[photoIndex]} */}
                     </p>
                   </MDBMask>

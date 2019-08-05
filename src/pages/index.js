@@ -40,7 +40,7 @@ export const query = graphql`
       edges {
         node {
           childImageSharp {
-            fluid(maxHeight: 1080, maxWidth: 1920, cropFocus: CENTER) {
+            fluid(maxHeight: 1080, maxWidth: 1920, cropFocus: CENTER, quality: 90) {
               src
               srcSet
               ...GatsbyImageSharpFluid_withWebp

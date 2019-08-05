@@ -9,7 +9,6 @@ import {
   MDBCardTitle,
 } from "mdbreact"
 import logo from "../images/icon.svg"
-// import Divider from "./divider.js"
 
 const Form = () => {
   return (
@@ -27,7 +26,6 @@ const Form = () => {
         />
         Exclusive Luxury Homes in the Heart of Downtown Charlotte.
       </MDBCardTitle>
-      {/* <Divider bottom="#f8f9fa" top="#f1f1f1" /> */}
 
       <MDBCardBody>
         <MDBCardText className="mb-4 text-center">

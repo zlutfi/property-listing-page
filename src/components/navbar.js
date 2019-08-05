@@ -37,7 +37,6 @@ class Navbar extends Component {
                 />
               </MDBAnimation>
             </Link>
-            {/* <strong>Prime Properties</strong> */}
           </MDBNavbarBrand>
           <MDBNavbarToggler onClick={this.toggleCollapse} />
           <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
@@ -55,43 +54,6 @@ class Navbar extends Component {
               </MDBNavItem>
             </MDBNavbarNav>
           </MDBCollapse>
-          {/* <MDBNavbarToggler onClick={this.toggleCollapse} />
-          <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
-            <MDBNavbarNav right>
-              <MDBNavItem active>
-                <Link to="#!" className="nav-link">
-                  Home
-                </Link>
-              </MDBNavItem>
-              <MDBNavItem>
-                <Link to="#!" className="nav-link">
-                  Features
-                </Link>
-              </MDBNavItem>
-              <MDBNavItem>
-                <Link to="#!" className="nav-link">
-                  Pricing
-                </Link>
-              </MDBNavItem>
-              <MDBNavItem>
-                <MDBDropdown>
-                  <MDBDropdownToggle nav caret>
-                    <span className="mr-2">Dropdown</span>
-                  </MDBDropdownToggle>
-                  <MDBDropdownMenu>
-                    <MDBDropdownItem href="#!">Action</MDBDropdownItem>
-                    <MDBDropdownItem href="#!">Another Action</MDBDropdownItem>
-                    <MDBDropdownItem href="#!">
-                      Something else here
-                    </MDBDropdownItem>
-                    <MDBDropdownItem href="#!">
-                      Something else here
-                    </MDBDropdownItem>
-                  </MDBDropdownMenu>
-                </MDBDropdown>
-              </MDBNavItem>
-            </MDBNavbarNav>
-          </MDBCollapse> */}
         </MDBContainer>
       </MDBNavbar>
     )

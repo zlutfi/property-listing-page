@@ -13,16 +13,15 @@ const Main = () => {
             lg="5"
             className="order-md-last contact-form"
           >
-            <MDBAnimation type="bounceInUp" delay="0.4s">
+            <MDBAnimation type="fadeIn" delay="0.4s">
               <Form />
             </MDBAnimation>
           </MDBCol>
           <MDBCol size="12" md="6" lg="7" className="pt-5 pr-md-5">
             <MDBRow>
               <MDBCol className="pb-5 text-center text-md-left">
-                <MDBAnimation type="bounceInUp" delay="0s">
+                <MDBAnimation type="fadeIn" delay="0s">
                   <h2 className="h2-responsive mb-5 font-weight-bold">
-                    {/* <MDBIcon icon="info-circle" className="mr-2 text-primary" /> */}
                     Property Details
                   </h2>
                   {/* <hr className="d-none d-md-block" /> */}
@@ -31,7 +30,7 @@ const Main = () => {
                     of breathtaking views from nearly every angle. Bask in the
                     morning sun on the veranda, or enjoy a evening dip in the
                     infinity pool. Whatever your fancy, this home has plenty to
-                    offer. Located in the heart of downtown Charlotte, your
+                    offer. Located in the heart of downtown Charlotte, you're
                     close to everything. Seeing is believing, so schedule your
                     private viewing today!
                   </p>
@@ -76,12 +75,6 @@ const Main = () => {
                   1,894,500
                 </h3>
               </MDBCol>
-              {/* <MDBCol size="auto">
-                <h3>
-                  <MDBIcon icon="hammer" className="mr-2  text-primary" />
-                  Built <strong className="font-weight-bold">2015</strong>
-                </h3>
-              </MDBCol> */}
             </MDBRow>
             <hr className="d-none d-md-block" />
           </MDBCol>

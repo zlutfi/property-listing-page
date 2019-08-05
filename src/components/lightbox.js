@@ -33,7 +33,7 @@ class LightboxPage extends React.Component {
       //   "Guest Bedroom",
       // ]
       return (
-        <MDBCol md="4" className="mb-3">
+        <MDBCol size="6" md="4" className="mb-3">
           <MDBAnimation type="fadeIn" delay={"0.2" * photoIndex + "s"} reveal>
             <figure className=" z-depth-1">
               <div

@@ -5,7 +5,7 @@ import { MDBCarousel, MDBCarouselInner, MDBCarouselItem } from "mdbreact"
 
 const Carousel = ({ data = "" }) => (
   <MDBCarousel
-    activeItem={2}
+    activeItem={1}
     length={6}
     showControls={true}
     showIndicators={true}

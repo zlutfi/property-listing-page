@@ -31,10 +31,11 @@ export const query = graphql`
   query {
     allFile(
       filter: {
-        sourceInstanceName: { eq: "images" }
         relativeDirectory: { eq: "gallery" }
+        sourceInstanceName: { eq: "images" }
       }
       limit: 6
+      sort: { order: ASC, fields: name }
     ) {
       edges {
         node {

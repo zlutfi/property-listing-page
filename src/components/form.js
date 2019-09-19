@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import {
   MDBBtn,
   MDBIcon,
@@ -83,11 +82,9 @@ const Form = () => {
             label="Your Message"
           />
           <div className="text-center mt-4">
-            <Link to="/">
-              <MDBBtn type="submit" color="primary">
-                Schedule Your Tour <MDBIcon icon="envelope" className="ml-2" />
-              </MDBBtn>
-            </Link>
+            <MDBBtn herf="#" color="primary">
+              Schedule Your Tour <MDBIcon icon="envelope" className="ml-2" />
+            </MDBBtn>
           </div>
         </form>
       </MDBCardBody>

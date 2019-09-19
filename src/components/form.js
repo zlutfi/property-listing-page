@@ -16,7 +16,6 @@ const Form = () => {
       <MDBCardTitle
         tag="h4"
         className="h4-responsive text-center p-4  mb-0 font-weight-bold"
-        style={{ backgroundColor: "#f1f1f1" }}
       >
         <img
           src={logo}
@@ -34,10 +33,10 @@ const Form = () => {
         <form>
           <input
             type="text"
-            id="defaultFormContactNameEx"
+            id="defaultFormContactName"
             className="form-control"
             placeholder="Name"
-            label="Name"
+            label="Your Name"
           />
           <br />
 
@@ -45,8 +44,8 @@ const Form = () => {
             type="email"
             id="defaultFormContactEmail"
             className="form-control"
-            placeholder="Email"
-            label="Email"
+            placeholder="Your Email Address"
+            label="Your Email address"
           />
           <br />
 
@@ -55,7 +54,7 @@ const Form = () => {
             id="defaultFormContactPhone"
             className="form-control"
             placeholder="Phone"
-            label="Phone"
+            label="Your Phone Number"
           />
           <br />
 
@@ -64,7 +63,7 @@ const Form = () => {
             id="defaultFormContactDay"
             className="form-control"
             placeholder="Date"
-            label="Appointment Date"
+            label="Viewing Date"
           />
           <br />
           <input
@@ -72,7 +71,7 @@ const Form = () => {
             id="defaultFormContactAppointment"
             className="form-control"
             placeholder="Appointment Time"
-            label="Appointment Time"
+            label="Viewing Time"
           />
           <br />
           <textarea

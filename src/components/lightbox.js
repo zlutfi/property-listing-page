@@ -71,7 +71,7 @@ class LightboxPage extends React.Component {
           <MDBContainer>
             <MDBRow>
               <MDBCol className="text-center text-md-left">
-                <h2 className="h2-responsive mb-5 font-weight-bold white-text">
+                <h2 className="h2-responsive mb-5 font-weight-bold">
                   Property Photos
                 </h2>
               </MDBCol>

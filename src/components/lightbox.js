@@ -21,7 +21,7 @@ class LightboxPage extends React.Component {
     let photoIndex = -1
     const { images } = this.state
 
-    return images.map(imageSrc => {
+    return images.map((imageSrc, index) => {
       photoIndex++
       const privateKey = photoIndex
       // const captions = [
@@ -33,7 +33,7 @@ class LightboxPage extends React.Component {
       //   "Guest Bedroom",
       // ]
       return (
-        <MDBCol size="6" md="4" className="mb-3">
+        <MDBCol size="6" md="4" className="mb-3" key={index}>
           <MDBAnimation type="fadeIn" delay={"0.2" * photoIndex + "s"} reveal>
             <figure className=" z-depth-1">
               <div
@@ -71,7 +71,7 @@ class LightboxPage extends React.Component {
           <MDBContainer>
             <MDBRow>
               <MDBCol className="text-center text-md-left">
-                <h2 className="h2-responsive mb-5 font-weight-bold">
+                <h2 className="h2-responsive mb-5 font-weight-bold white-text">
                   Property Photos
                 </h2>
               </MDBCol>

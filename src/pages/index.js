@@ -41,7 +41,7 @@ export const query = graphql`
         node {
           childImageSharp {
             fluid(
-              maxHeight: 1080
+              maxHeight: 800
               maxWidth: 1920
               cropFocus: CENTER
               quality: 60

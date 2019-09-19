@@ -7,6 +7,7 @@ const Main = () => {
     <>
       <MDBContainer>
         <MDBRow className="pb-5">
+          {/* Contact Form */}
           <MDBCol
             size="12"
             md="6"
@@ -17,6 +18,7 @@ const Main = () => {
               <Form />
             </MDBAnimation>
           </MDBCol>
+          {/* Property Details */}
           <MDBCol size="12" md="6" lg="7" className="pt-5 pr-md-5">
             <MDBRow>
               <MDBCol className="pb-5 text-center text-md-left">
@@ -24,7 +26,6 @@ const Main = () => {
                   <h2 className="h2-responsive mb-5 font-weight-bold">
                     Property Details
                   </h2>
-                  {/* <hr className="d-none d-md-block" /> */}
                   <p className="text-center text-md-left">
                     This architectural masterpiece is designed to take advantage
                     of breathtaking views from nearly every angle. Bask in the
@@ -38,15 +39,18 @@ const Main = () => {
               </MDBCol>
             </MDBRow>
             <MDBRow className="mx-auto text-center text-md-left mb-5 mb-md-0">
+              {/* Bedrooms */}
               <MDBCol>
                 <h1 className="font-weight-bold h1-responsive">3</h1>
                 <MDBIcon icon="bed" className="mr-2 text-primary" />
                 Bedrooms
               </MDBCol>
+              {/* Bathrooms */}
               <MDBCol>
                 <h1 className="font-weight-bold h1-responsive">2</h1>
                 <MDBIcon icon="bath" className="mr-2 text-primary" /> Baths
               </MDBCol>
+              {/* Sqft */}
               <MDBCol>
                 <h1 className="font-weight-bold h1-responsive">2316</h1>
                 <MDBIcon icon="ruler-combined" className="mr-2 text-primary" />
@@ -54,7 +58,7 @@ const Main = () => {
               </MDBCol>
             </MDBRow>
             <hr className="d-none d-md-block" />
-
+            {/* Address section */}
             <MDBRow className="mx-auto text-center text-md-left mb-5 mb-md-0">
               <MDBCol>
                 <h4 className="h4-responsive">
@@ -68,6 +72,7 @@ const Main = () => {
               </MDBCol>
             </MDBRow>
             <hr className="d-none d-md-block" />
+            {/* Pricing section */}
             <MDBRow className="mx-auto text-center text-md-left">
               <MDBCol>
                 <h3 className="font-weight-bold h3-responsive">

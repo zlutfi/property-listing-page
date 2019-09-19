@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Prime Properties`,
     description: `A single page application for single property listings.`,
-    author: `@zlutfi`,
+    author: `@zlutfi6`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -37,6 +37,6 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
